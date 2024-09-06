@@ -11,17 +11,17 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f0f2f5;
+            background-color: #f5f5f5;
             color: #333;
         }
 
         .container {
             max-width: 900px;
-            margin: 0 auto;
+            margin: 20px auto;
             padding: 20px;
             background-color: #fff;
             border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         }
 
         header {
@@ -30,13 +30,23 @@
             background-color: #007bff;
             color: #fff;
             border-radius: 10px 10px 0 0;
+            position: relative;
         }
 
         header h1 {
             margin: 0;
-            font-size: 32px;
+            font-size: 36px;
             text-transform: uppercase;
             letter-spacing: 2px;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            top: 20px;
+            right: 20px;
         }
 
         section {
@@ -45,9 +55,9 @@
 
         h2 {
             color: #007bff;
-            font-size: 24px;
+            font-size: 26px;
             margin-bottom: 10px;
-            border-bottom: 2px solid #007bff;
+            border-bottom: 3px solid #007bff;
             padding-bottom: 5px;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -97,11 +107,18 @@
             }
 
             header h1 {
-                font-size: 28px;
+                font-size: 30px;
+            }
+
+            header img {
+                width: 100px;
+                height: 100px;
+                top: 10px;
+                right: 10px;
             }
 
             h2 {
-                font-size: 20px;
+                font-size: 22px;
             }
         }
     </style>
@@ -110,6 +127,7 @@
 <body>
     <header>
         <h1>Lucas Almada</h1>
+        <img src="../imagen.JPG" alt="Lucas Almada">
     </header>
     <div class="container">
         <section>
@@ -169,3 +187,4 @@
 </body>
 
 </html>
+
